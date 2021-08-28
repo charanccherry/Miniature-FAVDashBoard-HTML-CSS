@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container-Dash {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar-Dash {
+    display: flex;
+    flex-direction: column;
+    background-color: #222629;
+    width: 200px;
+    flex-grow: 0;
+    color: white;
+}
+
+.sidebar-Dash-top {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.sidebar-title {
+    padding: 10px;
+    font-family: 'Sans-Serif';
+}
+
+.sidebar-heading {
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    padding: 10px;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+.sidebar-heading-1 {
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    padding: 10px;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: #520F9A;
+}
+
+.sidebar-icon {
+    padding-right: 10px;
+}
+
+.bottom-dash-cont {
+    display: flex;
+    align-items: center;
+}
+
+.dash-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.display-Dash {
+    background-image: radial-gradient(#520F9A, #222629);
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 500px;
+    padding: 5px;
+    color: white;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.img-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-fav {
+    min-height: 10vh;
+    max-height: 20vh;
+    min-width: 15vh;
+    max-width: 25vw;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-right: 5px;
+    flex-wrap: wrap;
+}
